@@ -2,7 +2,7 @@ const characters = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O"
 "/"];
 let FirstPassword = document.getElementById("firstPassword")
 let SecondPassword = document.getElementById("secondPassword")
-let Neu = document.getElementById("neu")
+
 function randomChar(){
     let randomPass = Math.floor(Math.random() * characters.length)
     return characters[randomPass]
